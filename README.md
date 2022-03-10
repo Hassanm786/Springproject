@@ -26,6 +26,10 @@ Maven
 - Change the application prod properties to match the database
 - Launch the application in Java and go live on VSC
 
+## Design
+Risk assessment - (https://user-images.githubusercontent.com/98025221/157768233-669e1a87-7468-4816-aad7-64d3f67112cf.png)
+Jira board - (https://hassan786.atlassian.net/jira/software/projects/SPRIN/boards/2/roadmap)
+
 
 ## Running the tests
 
