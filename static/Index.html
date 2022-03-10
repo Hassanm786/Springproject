@@ -1,0 +1,81 @@
+<HTML>
+
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="./looks.css" rel="stylesheet">
+</head>
+<h1>Welcome to the MMA gear store!</h1>
+
+<p>Please add all the relevant MMA gear in the form below!</p>
+
+<body>
+
+    <form id="superform">
+        <div class="form-floating">
+            <input type="text" class="form-control" id="id" placeholder="id" autocomplete="off" name="name">
+            <label for="floatingInput" class="form-label">ID</label>
+        </div>
+        <br>
+        <div class="form-floating">
+            <input type="text" class="form-control" id="name" placeholder="name" autocomplete="off" name="gearname">
+            <label for="name" class="form-label">Name</label>
+        </div>
+        <br>
+
+        <div class="form-floating">
+            <input type="text" class="form-control" id="colour" placeholder="colour" autocomplete="off" name="colour">
+            <label for="floatingInput">Colour</label>
+        </div>
+        <br>
+
+        <div class="form-floating">
+            <input type="Integer" class="form-control" id="price" placeholder="price" autocomplete="off" name="price">
+            <label for="floatingInput" class="form-label">Price</label>
+        </div>
+        <br>
+        <button type="submit" name="Create">Add Item</button>
+        <button type="button" name="delete item" onclick="remove()">Delete item</button>
+        <button type="button" name="Read by ID" onclick="get()">Read by item id</button>
+        <input type="button" value="see all items" onclick="getAll()">
+    </form>
+    <br>
+    <h1>Update your item here</h1>
+    <p>Use this to update the price/colour of any gear</p>
+    <form id="updatesuperform">
+        <div class="form-floating">
+            <input type="text" class="form-control" id="id1" placeholder="id1" autocomplete="off" name="id1">
+            <label for="floatingInput" class="form-label">ID</label>
+            <br>
+        <div class="form-floating">
+            <input type="text" class="form-control" id="gearname1" placeholder="gearname1" autocomplete="off" name="gearname1">
+            <label for="gearname1" class="form-label">Name</label>
+        </div>
+        <br>
+
+        <div class="form-floating">
+            <input type="text" class="form-control" id="colour1" placeholder="colour1" autocomplete="off" name="colour1">
+            <label for="floatingInput">Colour</label>
+        </div>
+        <br>
+
+        <div class="form-floating">
+            <input type="Integer" class="form-control" id="price1" placeholder="price1" autocomplete="off" name="price1">
+            <label for="floatingInput" class="form-label">Price</label>
+        </div>
+        <br>
+        <button type="submit" name="Update">Update item</button>
+        <br>
+    </form>
+
+    <script src="./techs.js"></script>
+
+
+
+
+</body>
+
+
+</HTML>
