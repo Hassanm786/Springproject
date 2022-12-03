@@ -8,11 +8,15 @@ I opted to create a simple system, which would allow a user to add gym related g
 ## The demonstrated skills
 
 Project Management - Use of a Jira board to manage the tasks that needed to be complete.  
-VCS - Use of Git to save the code.  
-Databases - Use of SQL to persist the data, and H2 for testing.
-Java & Springboot - To create the relevant code
-Mockito and JUnit - To test the methods in our code
-HTML, JS and CSS - To create the front end for the application.
+* **Version Control System:** Github, easier to work with and user friendly.
+
+* **Database:** I used mySQL, which updates at midnight, something I found out in a way I didn't want to.
+
+* **Java SE and Spring Boot:** created application in Java and used Springboot to bring it to life.
+
+* **Testing:** Tried to get at least 80% test coverage using Junit and MockMVC.
+
+* **Front-end development:** Visual Studio Code, with a javascript that worked as an API and a CSS to make it look nice.
 
 
 ## What you will need pre installed.  
@@ -41,6 +45,4 @@ Tests can be run in the file, following the test/java directory. these test whet
 
 * Hassan Mahmood - https://github.com/Hassanm786/Springproject
 
-## Acknowledgments
 
-A huge thank you to the QA trainers, particularly Pawel and Shafeeq.
