@@ -7,7 +7,7 @@ I opted to create a simple system, which would allow a user to add gym related g
 
 ## The demonstrated skills
 
-Project Management - Use of a Jira board to manage the tasks that needed to be complete.  
+ * **Project Management:** - Use of a Jira board to manage the tasks that needed to be complete.  
 * **Version Control System:** Github, easier to work with and user friendly.
 
 * **Database:** I used mySQL, which updates at midnight, something I found out in a way I didn't want to.
